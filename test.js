@@ -1,7 +1,7 @@
 const http = require("http");
 
 function randomString(length) {
-    return Math.random().toString(36).substring(2, 2 + length);
+    return Math.random().toString(36).substring(2);
 }
 
 const server = http.createServer((req, res) => {
